@@ -14,7 +14,24 @@ h3{
 p{
     color: #8f8f8f;
 }
-  /* title */
+
+    /* container */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+    /* section */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: white;    
+}
+
+    /* title */
 
 .big-heading{
     font-weight: 900;
@@ -22,14 +39,8 @@ p{
     line-height: 1.5;
     color: white;
 }
-#title{
-    background-color: #ff4c68;
-    text-align: left;
-}
-.container-fluid{
-    padding: 7% 15%;
-}
 #title .container-fluid{
+    text-align: left;
     padding: 3% 15% 7%;
 }
 .navbar{
@@ -76,7 +87,6 @@ p{
     /* feature */
 
 #features{
-    background-color: white;
     position: relative;
 }
 .feature-box{
@@ -95,8 +105,7 @@ p{
     /* testimonial */
 
 #testimonials{
-    background-color: #ff4c68;
-    color: white;    
+    background-color: #ef8172;   
 }
 .testimonial-text{
     font-size: 3rem;
@@ -110,7 +119,7 @@ p{
     /* press */
 
 #press{
-    background-color: #ff4c68;
+    background-color: #ef8172;
     padding-bottom: 3%; 
 }
 .press-logo{
@@ -133,19 +142,6 @@ p{
 }
 .pricing-column{
     padding: 3% 2%;
-}
-
-    /* cta */
-
-#cta{
-    background-color: #ff4c68;
-}
-.cta-text{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
     /* footer */
 .social-icon{
